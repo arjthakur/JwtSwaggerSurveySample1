@@ -1,0 +1,14 @@
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\bin\Debug\netcoreapp3.1\Survey.Repositories.deps.json
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\bin\Debug\netcoreapp3.1\Survey.Repositories.dll
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\bin\Debug\netcoreapp3.1\Survey.Repositories.pdb
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\bin\Debug\netcoreapp3.1\Survey.Common.dll
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\bin\Debug\netcoreapp3.1\Survey.Entities.dll
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\bin\Debug\netcoreapp3.1\Survey.Entities.pdb
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\bin\Debug\netcoreapp3.1\Survey.Common.pdb
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.csprojAssemblyReference.cache
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.csproj.CoreCompileInputs.cache
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.AssemblyInfoInputs.cache
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.AssemblyInfo.cs
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.csproj.CopyComplete
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.dll
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.pdb

@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Survey.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Survey.Api.Controllers.BaseController">
+            <summary>
+            Base controller
+            </summary>
+        </member>
+        <member name="T:Survey.Api.Controllers.SurveyController">
+            <summary>
+            Survey related end points collection
+            </summary>
+        </member>
+        <member name="M:Survey.Api.Controllers.SurveyController.#ctor(Microsoft.Extensions.Logging.ILogger{Survey.Api.Controllers.SurveyController},Survey.Services.ISurveyService)">
+            <summary>
+            ctor
+            </summary>
+        </member>
+        <member name="M:Survey.Api.Controllers.SurveyController.Get">
+            <summary>
+            Get All Surveys [Only authorised user can access this end point]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Survey.Api.Controllers.SurveyController.Get(System.Int64)">
+            <summary>
+            Get survey by id [Only authorised user can access this end point]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Survey.Api.Controllers.SurveyController.Add(Survey.DTOs.Request.NewSurvey)">
+            <summary>
+            Add survey [Only authorised user can access this end point]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Survey.Api.Controllers.SurveyController.Update(Survey.DTOs.Response.SurveyDto)">
+            <summary>
+            Update survey [Only authorised user can access this end point]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Survey.Api.Controllers.SurveyController.Delete(System.Int64)">
+            <summary>
+            Delete survey [Only authorised user can access this end point]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Survey.Api.Controllers.UserController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Survey.Api.Controllers.UserController.#ctor(Microsoft.Extensions.Logging.ILogger{Survey.Api.Controllers.UserController},Survey.Services.IUserService)">
+            <summary>
+            Authentication end points
+            </summary>
+            <param name="logger"></param>
+            <param name="userService"></param>
+        </member>
+        <member name="M:Survey.Api.Controllers.UserController.Post(Survey.DTOs.Request.Login)">
+            <summary>
+            User can login and get access token via this end point
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Survey.Api.Controllers.WeatherForecastController.Get">
+            <summary>
+            Only authorised user can access this end point
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Survey.Api.Controllers.WeatherForecastController.GetAdmin">
+            <summary>
+            Only authorised user can access this end point with Role "Admin"
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Survey.Api.Controllers.WeatherForecastController.GetSuperAdmin">
+            <summary>
+            Only authorised user can access this end point with Role "SuperAdmin"
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Survey.Api.Controllers.WeatherForecastController.Anonymous">
+            <summary>
+            Anonymous call
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Survey.Api.Controllers.WeatherForecastController.Anonymous2">
+            <summary>
+            Anonymous call
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Survey.Api.JWT.JwtAuthSwaggerConfigure">
+            <summary>
+            To Enable JWT bearer and Swagger commonly
+            </summary>
+        </member>
+        <member name="M:Survey.Api.JWT.JwtAuthSwaggerConfigure.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Configure JWT and Swagger
+            </summary>
+            <param name="services"></param>
+            <param name="Configuration"></param>
+        </member>
+        <member name="M:Survey.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Survey.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

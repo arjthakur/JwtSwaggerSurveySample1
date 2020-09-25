@@ -1,0 +1,9 @@
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.DTOs\bin\Debug\netcoreapp3.1\Survey.DTOs.deps.json
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.DTOs\bin\Debug\netcoreapp3.1\Survey.DTOs.dll
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.DTOs\bin\Debug\netcoreapp3.1\Survey.DTOs.pdb
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.DTOs\obj\Debug\netcoreapp3.1\Survey.DTOs.csprojAssemblyReference.cache
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.DTOs\obj\Debug\netcoreapp3.1\Survey.DTOs.AssemblyInfoInputs.cache
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.DTOs\obj\Debug\netcoreapp3.1\Survey.DTOs.AssemblyInfo.cs
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.DTOs\obj\Debug\netcoreapp3.1\Survey.DTOs.dll
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.DTOs\obj\Debug\netcoreapp3.1\Survey.DTOs.pdb
+P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.DTOs\obj\Debug\netcoreapp3.1\Survey.DTOs.csproj.CoreCompileInputs.cache
