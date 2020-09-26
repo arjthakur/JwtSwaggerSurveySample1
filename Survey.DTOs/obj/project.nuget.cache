@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "659APxt3WJ56HT+FZ6qxMq2oJttuaqMUukU0l1AbETV4DWjUaxPtYXMtNzq/kFXhkCEMUcQR3j93zSN4XbP5IQ==",
+  "dgSpecHash": "LAOn8y+nY6LieqHfdUj0oW6exaIBnhgf9qvTj7ro5KsByvX4PnUg8DLTX08IozF4gOd8Xdi0/HLcQA7Q/5r9cg==",
   "success": true,
-  "projectFilePath": "P:\\projects\\DotNetCore\\SurveyAPIs\\Survey\\Survey.DTOs\\Survey.DTOs.csproj",
+  "projectFilePath": "P:\\projects\\GIT Repo\\httpsgithubcomarjthakurJwtSwaggerSurveySample1\\SurveySolutionGit\\Survey.DTOs\\Survey.DTOs.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

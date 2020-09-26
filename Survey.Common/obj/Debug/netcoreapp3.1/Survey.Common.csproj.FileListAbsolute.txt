@@ -1,9 +1,0 @@
-P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Common\bin\Debug\netcoreapp3.1\Survey.Common.deps.json
-P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Common\bin\Debug\netcoreapp3.1\Survey.Common.dll
-P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Common\bin\Debug\netcoreapp3.1\Survey.Common.pdb
-P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Common\obj\Debug\netcoreapp3.1\Survey.Common.csprojAssemblyReference.cache
-P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Common\obj\Debug\netcoreapp3.1\Survey.Common.csproj.CoreCompileInputs.cache
-P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Common\obj\Debug\netcoreapp3.1\Survey.Common.AssemblyInfoInputs.cache
-P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Common\obj\Debug\netcoreapp3.1\Survey.Common.AssemblyInfo.cs
-P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Common\obj\Debug\netcoreapp3.1\Survey.Common.dll
-P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Common\obj\Debug\netcoreapp3.1\Survey.Common.pdb

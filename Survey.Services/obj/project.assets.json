@@ -5891,11 +5891,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\projects\\DotNetCore\\SurveyAPIs\\Survey\\Survey.Services\\Survey.Services.csproj",
+      "projectUniqueName": "P:\\projects\\GIT Repo\\httpsgithubcomarjthakurJwtSwaggerSurveySample1\\SurveySolutionGit\\Survey.Services\\Survey.Services.csproj",
       "projectName": "Survey.Services",
-      "projectPath": "P:\\projects\\DotNetCore\\SurveyAPIs\\Survey\\Survey.Services\\Survey.Services.csproj",
+      "projectPath": "P:\\projects\\GIT Repo\\httpsgithubcomarjthakurJwtSwaggerSurveySample1\\SurveySolutionGit\\Survey.Services\\Survey.Services.csproj",
       "packagesPath": "C:\\Users\\Arjun\\.nuget\\packages\\",
-      "outputPath": "P:\\projects\\DotNetCore\\SurveyAPIs\\Survey\\Survey.Services\\obj\\",
+      "outputPath": "P:\\projects\\GIT Repo\\httpsgithubcomarjthakurJwtSwaggerSurveySample1\\SurveySolutionGit\\Survey.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5914,11 +5914,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "P:\\projects\\DotNetCore\\SurveyAPIs\\Survey\\Survey.DTOs\\Survey.DTOs.csproj": {
-              "projectPath": "P:\\projects\\DotNetCore\\SurveyAPIs\\Survey\\Survey.DTOs\\Survey.DTOs.csproj"
+            "P:\\projects\\GIT Repo\\httpsgithubcomarjthakurJwtSwaggerSurveySample1\\SurveySolutionGit\\Survey.DTOs\\Survey.DTOs.csproj": {
+              "projectPath": "P:\\projects\\GIT Repo\\httpsgithubcomarjthakurJwtSwaggerSurveySample1\\SurveySolutionGit\\Survey.DTOs\\Survey.DTOs.csproj"
             },
-            "P:\\projects\\DotNetCore\\SurveyAPIs\\Survey\\Survey.Repositories\\Survey.Repositories.csproj": {
-              "projectPath": "P:\\projects\\DotNetCore\\SurveyAPIs\\Survey\\Survey.Repositories\\Survey.Repositories.csproj"
+            "P:\\projects\\GIT Repo\\httpsgithubcomarjthakurJwtSwaggerSurveySample1\\SurveySolutionGit\\Survey.Repositories\\Survey.Repositories.csproj": {
+              "projectPath": "P:\\projects\\GIT Repo\\httpsgithubcomarjthakurJwtSwaggerSurveySample1\\SurveySolutionGit\\Survey.Repositories\\Survey.Repositories.csproj"
             }
           }
         }

@@ -5787,11 +5787,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\projects\\DotNetCore\\SurveyAPIs\\Survey\\Survey.Repositories\\Survey.Repositories.csproj",
+      "projectUniqueName": "P:\\projects\\GIT Repo\\httpsgithubcomarjthakurJwtSwaggerSurveySample1\\SurveySolutionGit\\Survey.Repositories\\Survey.Repositories.csproj",
       "projectName": "Survey.Repositories",
-      "projectPath": "P:\\projects\\DotNetCore\\SurveyAPIs\\Survey\\Survey.Repositories\\Survey.Repositories.csproj",
+      "projectPath": "P:\\projects\\GIT Repo\\httpsgithubcomarjthakurJwtSwaggerSurveySample1\\SurveySolutionGit\\Survey.Repositories\\Survey.Repositories.csproj",
       "packagesPath": "C:\\Users\\Arjun\\.nuget\\packages\\",
-      "outputPath": "P:\\projects\\DotNetCore\\SurveyAPIs\\Survey\\Survey.Repositories\\obj\\",
+      "outputPath": "P:\\projects\\GIT Repo\\httpsgithubcomarjthakurJwtSwaggerSurveySample1\\SurveySolutionGit\\Survey.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5810,8 +5810,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "P:\\projects\\DotNetCore\\SurveyAPIs\\Survey\\Survey.Entities\\Survey.Entities.csproj": {
-              "projectPath": "P:\\projects\\DotNetCore\\SurveyAPIs\\Survey\\Survey.Entities\\Survey.Entities.csproj"
+            "P:\\projects\\GIT Repo\\httpsgithubcomarjthakurJwtSwaggerSurveySample1\\SurveySolutionGit\\Survey.Entities\\Survey.Entities.csproj": {
+              "projectPath": "P:\\projects\\GIT Repo\\httpsgithubcomarjthakurJwtSwaggerSurveySample1\\SurveySolutionGit\\Survey.Entities\\Survey.Entities.csproj"
             }
           }
         }

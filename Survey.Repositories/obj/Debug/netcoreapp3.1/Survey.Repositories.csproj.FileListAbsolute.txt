@@ -12,3 +12,17 @@ P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\obj\Debug\netcoreap
 P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.csproj.CopyComplete
 P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.dll
 P:\projects\DotNetCore\SurveyAPIs\Survey\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.pdb
+P:\projects\GIT Repo\httpsgithubcomarjthakurJwtSwaggerSurveySample1\SurveySolutionGit\Survey.Repositories\bin\Debug\netcoreapp3.1\Survey.Repositories.deps.json
+P:\projects\GIT Repo\httpsgithubcomarjthakurJwtSwaggerSurveySample1\SurveySolutionGit\Survey.Repositories\bin\Debug\netcoreapp3.1\Survey.Repositories.dll
+P:\projects\GIT Repo\httpsgithubcomarjthakurJwtSwaggerSurveySample1\SurveySolutionGit\Survey.Repositories\bin\Debug\netcoreapp3.1\Survey.Repositories.pdb
+P:\projects\GIT Repo\httpsgithubcomarjthakurJwtSwaggerSurveySample1\SurveySolutionGit\Survey.Repositories\bin\Debug\netcoreapp3.1\Survey.Common.dll
+P:\projects\GIT Repo\httpsgithubcomarjthakurJwtSwaggerSurveySample1\SurveySolutionGit\Survey.Repositories\bin\Debug\netcoreapp3.1\Survey.Entities.dll
+P:\projects\GIT Repo\httpsgithubcomarjthakurJwtSwaggerSurveySample1\SurveySolutionGit\Survey.Repositories\bin\Debug\netcoreapp3.1\Survey.Entities.pdb
+P:\projects\GIT Repo\httpsgithubcomarjthakurJwtSwaggerSurveySample1\SurveySolutionGit\Survey.Repositories\bin\Debug\netcoreapp3.1\Survey.Common.pdb
+P:\projects\GIT Repo\httpsgithubcomarjthakurJwtSwaggerSurveySample1\SurveySolutionGit\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.csprojAssemblyReference.cache
+P:\projects\GIT Repo\httpsgithubcomarjthakurJwtSwaggerSurveySample1\SurveySolutionGit\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.csproj.CoreCompileInputs.cache
+P:\projects\GIT Repo\httpsgithubcomarjthakurJwtSwaggerSurveySample1\SurveySolutionGit\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.AssemblyInfoInputs.cache
+P:\projects\GIT Repo\httpsgithubcomarjthakurJwtSwaggerSurveySample1\SurveySolutionGit\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.AssemblyInfo.cs
+P:\projects\GIT Repo\httpsgithubcomarjthakurJwtSwaggerSurveySample1\SurveySolutionGit\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.csproj.CopyComplete
+P:\projects\GIT Repo\httpsgithubcomarjthakurJwtSwaggerSurveySample1\SurveySolutionGit\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.dll
+P:\projects\GIT Repo\httpsgithubcomarjthakurJwtSwaggerSurveySample1\SurveySolutionGit\Survey.Repositories\obj\Debug\netcoreapp3.1\Survey.Repositories.pdb

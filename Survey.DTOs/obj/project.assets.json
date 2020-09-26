@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\projects\\DotNetCore\\SurveyAPIs\\Survey\\Survey.DTOs\\Survey.DTOs.csproj",
+      "projectUniqueName": "P:\\projects\\GIT Repo\\httpsgithubcomarjthakurJwtSwaggerSurveySample1\\SurveySolutionGit\\Survey.DTOs\\Survey.DTOs.csproj",
       "projectName": "Survey.DTOs",
-      "projectPath": "P:\\projects\\DotNetCore\\SurveyAPIs\\Survey\\Survey.DTOs\\Survey.DTOs.csproj",
+      "projectPath": "P:\\projects\\GIT Repo\\httpsgithubcomarjthakurJwtSwaggerSurveySample1\\SurveySolutionGit\\Survey.DTOs\\Survey.DTOs.csproj",
       "packagesPath": "C:\\Users\\Arjun\\.nuget\\packages\\",
-      "outputPath": "P:\\projects\\DotNetCore\\SurveyAPIs\\Survey\\Survey.DTOs\\obj\\",
+      "outputPath": "P:\\projects\\GIT Repo\\httpsgithubcomarjthakurJwtSwaggerSurveySample1\\SurveySolutionGit\\Survey.DTOs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
