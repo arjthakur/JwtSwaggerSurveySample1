@@ -64,7 +64,7 @@ namespace Survey.API.Tests
         public async void Get_SurveyById()
         {
             //arrage
-            long Id = 9;
+            long Id =10;
             var surveyById = GetItem(Id);
             //act
             var result = await _surveyControler.Get().ConfigureAwait(false);
