@@ -5,6 +5,7 @@ using Survey.Api.Controllers;
 using Survey.DTOs.Response;
 using Survey.Services;
 using System;
+using System.Linq;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Xunit;
@@ -31,7 +32,7 @@ namespace Survey.API.Tests
             _surveyService.Setup(x => x.GetAsync())
                 .ReturnsAsync(GenerateListOFSurvey(100));
             _surveyService.Setup(x => x.GetAsync(It.IsAny<long>()))
-                .ReturnsAsync(GetItem(10));
+                .ReturnsAsync(GenerateListOFSurvey(100).FirstOrDefault(x=>x.Id == 10));
         }
 
         private List<SurveyDto> GenerateListOFSurvey(int Count)
@@ -63,8 +64,8 @@ namespace Survey.API.Tests
         public async void Get_SurveyById()
         {
             //arrage
-            long Id = 10;
-            var surveyById = GetItem(10);
+            long Id = 9;
+            var surveyById = GetItem(Id);
             //act
             var result = await _surveyControler.Get().ConfigureAwait(false);
             var survey = await _surveyService.Object.GetAsync(Id);
