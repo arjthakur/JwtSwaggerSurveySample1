@@ -52,10 +52,8 @@ namespace Survey.API.Tests
         public async void Get_AllSurvey()
         {
             //arrage
-
             //act
             var result = await _surveyControler.Get().ConfigureAwait(false);
-
             //asert
             _ = Assert.IsType<OkObjectResult>(result);
         }
