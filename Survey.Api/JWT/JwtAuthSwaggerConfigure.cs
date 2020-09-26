@@ -97,7 +97,7 @@ namespace Survey.Api.JWT
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+                c.SwaggerEndpoint("/SurveyAPIs/swagger/v1/swagger.json", "v1");
                 c.DocumentTitle = "Survey App";
                 c.DefaultModelsExpandDepth(0);
                 c.RoutePrefix = string.Empty;
