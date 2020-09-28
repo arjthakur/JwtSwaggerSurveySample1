@@ -57,6 +57,7 @@ namespace Survey.Repositories.Tests
             //Assert.NotNull(result);
             //Assert.IsType<List<Entities.Tables.Survey>>(result);
             Assert.Equal(1,1);
+
         }
     }
 }

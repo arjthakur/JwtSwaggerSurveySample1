@@ -7,3 +7,4 @@ Survey-NG\node_modules
 /Survey.Entities/obj/Debug/netcoreapp3.1/Survey.Entities.csprojAssemblyReference.cache
 /Survey.Repositories/obj/Debug/netcoreapp3.1/Survey.Repositories.csprojAssemblyReference.cache
 /Survey.Services/obj/Debug/netcoreapp3.1/Survey.Services.csprojAssemblyReference.cache
+.vs
