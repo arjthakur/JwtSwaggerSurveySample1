@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Survey.Common;
 using Survey.Entities.Tables;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Survey.Entities
@@ -12,7 +13,7 @@ namespace Survey.Entities
     {
         DbSet<Tables.Survey> Surveys { get; set; }
         DbSet<Page> Pages { get; set; }
-        public Task<int> Commit();
+        public Task<int> CommitAsync(CancellationToken token);
 
     }
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser, ApplicationRoles, long>, IApplicationDbContext
@@ -22,9 +23,9 @@ namespace Survey.Entities
         }
         public DbSet<Tables.Survey> Surveys { get; set; }
         public DbSet<Page> Pages { get; set; }
-        public Task<int> Commit()
+        public async Task<int> CommitAsync(CancellationToken token)
         {
-            return this.SaveChangesAsync();
+            return await this.SaveChangesAsync(token);
         }
         protected override void OnModelCreating(ModelBuilder builder)
         {
