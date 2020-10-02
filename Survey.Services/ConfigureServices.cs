@@ -5,14 +5,15 @@ using Survey.Repositories;
 
 namespace Survey.Services
 {
-    public class SurveyServices
+    public static class SurveyServices
     {
-        public static void ConfigureServices(IServiceCollection services, IConfiguration Configuration)
+        public static IServiceCollection ConfigureSurveyServices(this IServiceCollection services, IConfiguration Configuration)
         {
-            ConfigureRepositories.ConfigureServices(services, Configuration);
+            services.ConfigureRepositoryServices(Configuration);
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ISurveyService, SurveyService>();
             services.AddAutoMapper(typeof(SurveyServices));
+            return services;
         }
     }
 }

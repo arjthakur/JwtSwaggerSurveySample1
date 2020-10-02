@@ -48,7 +48,7 @@ namespace Survey.Services
             ApplicationUser user = await userRepository.GetLogin(login.Username, login.Password);
             if (user != null)
             {
-                var userRoles = await userRepository.GetRoles(user);
+                var userRoles = await userRepository.GetRoles(user).ConfigureAwait(false);
                 var authClaims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Sid, user.Id.ToString()),

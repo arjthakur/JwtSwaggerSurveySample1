@@ -5,14 +5,14 @@ using System;
 
 namespace Survey.Repositories
 {
-    public class ConfigureRepositories
+    public static class ConfigureRepositories
     {
-        public static void ConfigureServices(IServiceCollection services, IConfiguration Configuration)
+        public static IServiceCollection ConfigureRepositoryServices(this IServiceCollection services, IConfiguration Configuration)
         {
-            ConfigureEntities.ConfigureServices(services, Configuration);
+            services.ConfigureEntityServices(Configuration);
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ISurveyRepository, SurveyRepository>();
-
+            return services;
         }
     }
 }

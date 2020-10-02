@@ -8,13 +8,14 @@ using System.Text;
 
 namespace Survey.Entities
 {
-    public class ConfigureEntities
+    public static class ConfigureEntities
     {
-        public static void ConfigureServices(IServiceCollection services, IConfiguration Configuration)
+        public static IServiceCollection ConfigureEntityServices(this IServiceCollection services, IConfiguration Configuration)
         {
             services.AddDbContext<ApplicationDbContext>(option => option.UseSqlServer(Configuration.GetConnectionString("MyAppConnection")));
             services.AddIdentityCore<ApplicationUser>().AddRoles<ApplicationRoles>().AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
+            return services;
         }
     }
 }

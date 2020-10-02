@@ -38,7 +38,7 @@ namespace Survey.Api.Controllers
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<IActionResult> Post(Login login)
         {
-            var user = await userService.Login(login);
+            var user = await userService.Login(login).ConfigureAwait(false);
             if (user == null)
             {
                 _logger.LogInformation($"User [{login.Username}] failed to logged in the system.");

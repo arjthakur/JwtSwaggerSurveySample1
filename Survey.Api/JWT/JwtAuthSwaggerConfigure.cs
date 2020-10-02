@@ -15,17 +15,17 @@ namespace Survey.Api.JWT
     /// <summary>
     /// To Enable JWT bearer and Swagger commonly
     /// </summary>
-    internal  class JwtAuthSwaggerConfigure
+    internal static class JwtAuthSwaggerConfigure
     {
         /// <summary>
         /// Configure JWT and Swagger
         /// </summary>
         /// <param name="services"></param>
         /// <param name="Configuration"></param>
-        internal static void ConfigureServices(IServiceCollection services, IConfiguration Configuration)
+        internal static void ConfigureJwtServices(this IServiceCollection services, IConfiguration Configuration)
         {
             // JWT Configuration DI
-            var token = Configuration.GetSection("tokenManagement").Get<TokenManagement>();
+            var token = Configuration.GetSection("TokenManagement").Get<TokenManagement>();
             services.AddSingleton(token);
 
             // JWT Authentication setting
@@ -92,12 +92,12 @@ namespace Survey.Api.JWT
             });
         }
 
-        internal static void Configure(IApplicationBuilder app)
+        internal static void JwtConfigure(this IApplicationBuilder app, IConfiguration configuration)
         {
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/SurveyAPIs/swagger/v1/swagger.json", "v1");
+                c.SwaggerEndpoint(configuration.GetSection("VirtualPath").Value + "/swagger/v1/swagger.json", "v1");
                 c.DocumentTitle = "Survey App";
                 c.DefaultModelsExpandDepth(0);
                 c.RoutePrefix = string.Empty;
