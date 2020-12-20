@@ -9,3 +9,9 @@ Survey-NG\node_modules
 /Survey.Services/obj/Debug/netcoreapp3.1/Survey.Services.csprojAssemblyReference.cache
 .vs
 
+/Survey.DTOs/obj
+/Survey.DTOs/bin
+/Survey.Entities/bin
+/Survey.Entities/obj
+/Survey.Services/obj
+/Survey.Services/bin
